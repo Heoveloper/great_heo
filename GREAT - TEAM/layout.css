@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* header */
+
+* {
+  outline : 1px solid green;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 80vw;
+  /* justify-content: center; */
+}
+
+body {
+  justify-content: center;
+}
+
+#wrapper #header {
+  display:flex;
+  flex-direction: column;
+  height:175px;
+}
+
+#wrapper #header .top-menu {
+  display:flex;
+  justify-content: end;
+}
+
+#wrapper #header .logo {
+  display:flex;
+  justify-content: center;
+}
+
+
+#wrapper #header .bottom-menu {
+  display:flex;
+  justify-content: space-between;
+}
+
+#wrapper #header .bottom-menu .category > ul {
+  display: flex;
+  position:relative;
+}
+
+#wrapper #header .bottom-menu .category ul .food-category ul, .region-category ul {
+  display:none;
+}
+
+#wrapper #header .bottom-menu .category > ul > .food-category:hover ul {
+  display:block;
+  position:absolute;
+}
+
+#wrapper #header .bottom-menu .category > ul > .region-category:hover ul {
+  display:block;
+  position:absolute;
+}
+
+/* main */
+#wrapper #main {
+  display:flex;
+  flex-direction: column;
+}

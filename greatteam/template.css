@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#main #figure {
+  flex: 1;
+}
+
+#main #title {
+  flex: 0;
+  text-align: center;
+  /* background: aqua; */
+  font-weight: bold;
+}
+
+#main #items {
+  flex: 3;
+  text-align: center;
+  /* background: aquamarine; */
+}
+
+#main #viewAll {
+  flex: 0;
+  text-align: right;
+  font-weight: bold;
+  cursor: pointer;
+  /* background: greenyellow; */
+}
+
+#main #viewAll:hover {
+    text-decoration: underline;
+  }
+
+#main #figure #img_bnr {
+    /* width: 1710px; */
+    width: 100%;
+    height: 200px;
+    /* height: 160px */
+    object-fit: none;
+}
