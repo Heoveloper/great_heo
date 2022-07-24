@@ -84,7 +84,8 @@ body {
   background-color: orange;
 }
 
-#header #gnb .category ul .food-category ul, .region-category ul {
+#header #gnb .category ul .food-category ul,
+.region-category ul {
   display: none;
   text-align: center;
 }
