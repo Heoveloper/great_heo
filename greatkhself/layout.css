@@ -1,7 +1,0 @@
-@charset "UTF-8";
-
-/* header 영역 */
-header {
-  display: flex;
-  height: 135px;
-}
