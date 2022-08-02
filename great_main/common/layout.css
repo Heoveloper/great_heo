@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-  outline: 1px solid green;
+  outline: 1px solid skyblue;
 }
 
 /* 비율 설정 */
@@ -221,8 +221,15 @@
 }
 
 /* 푸터 */
-.wrapper .footer {
-  width: 100vw;
+.footer {
+  /* width: 100vw; */
   height: 200px;
   background-color: #eee;
+}
+
+.footer__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
