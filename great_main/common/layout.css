@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-  outline: 1px solid skyblue;
+  /* outline: 1px solid skyblue; */
 }
 
 /* 비율 설정 */
@@ -67,6 +67,11 @@
 }
 
 /* 헤더 - 카테고리 */
+.category:hover .category > ul {
+  transition: all 2s;
+  transition-delay: 2s;
+}
+
 .wrapper > .header > .gnb {
   display: flex;
   justify-content: space-between;
@@ -93,6 +98,11 @@
 
 .wrapper > .header > .gnb > .category > ul > li:hover > ul {
   display: block;
+}
+
+.wrapper > .header > .gnb > .category > ul > li:hover > ul:hover li {
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.1s;
 }
 
 .wrapper > .header > .gnb > .category > ul > li > ul > li > a {
@@ -146,12 +156,15 @@
 .wrapper > .main > .items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .wrapper > .main > .items > .item {
   display: flex;
+  flex-basis: 150px;
+  flex-shrink: 0;
   flex-direction: column;
+  
   width: 22%;
   margin: 15px 15px;
   overflow: hidden;
