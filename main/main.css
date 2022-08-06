@@ -1,0 +1,5 @@
+/*비율*/
+.img__bnr {width: 100%; height: 300px; max-width: 2000px;}
+
+/*배너*/
+.img__bnr {object-fit: cover;}
