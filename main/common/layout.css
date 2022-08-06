@@ -27,3 +27,11 @@
 .category > ul > li > p {font-weight: bold;}
 .category > ul > li > ul {display: none; position: absolute;}
 .category > ul > li:hover > ul {display: block;}
+
+/*검색*/
+.search {display: flex; justify-content: space-around; border: 1.5px solid gray; border-radius: 8px; width: 200px; height: 28px;}
+.search-box {border: none;}
+.search-box:focus {outline: 2px solid var(--main-color-yel);}
+/* .search-box::placeholder {opacity: 0;} */
+.search a {display: flex; align-items: center;}
+.search i {color: var(--main-color-yel);}
