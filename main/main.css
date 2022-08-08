@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /*비율*/
-/* .main {height: calc(100vh - 300px);} */
-.img__bnr {width: 1900px; height: 250px; max-width: 2000px;}
+.figure {width: 1900px;}
+.img__bnr {width: 100%; height: 250px; max-width: 1900px;}
 
 /*배너*/
 .img__bnr {object-fit: cover;}
