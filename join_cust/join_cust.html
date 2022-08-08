@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/437b5ad3c4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="common/common.css" />
-    <link rel="stylesheet" href="join.css" />
-    <title>JOIN STANDARD</title>
+    <link rel="stylesheet" href="join_cust.css" />
+    <title>JOIN CUSTOMER STANDARD</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
           <div class="uppermost container">
             <div class="top-menu content">
-              <a href="#" class="top-menu__join">회원가입</a>
+              <a href="http://192.168.75.186:5500/join_cust/join_cust.html" class="top-menu__join">회원가입</a>
               <a href="#" class="top-menu__login">로그인</a>
               <a href="#" class="top-menu__cs">고객센터</a>
             </div>
           </div>
           <div class="logo container">
             <div class="logo-name content">
-              <a href="">GR<span>EAT</span></a>
+              <a href="http://192.168.75.186:5500/main/main.html">GR<span>EAT</span></a>
             </div>
           </div>
           <nav class="nav container">
@@ -66,10 +66,10 @@
               <h2>회원가입</h2>
             </div>
             <div class="member-type content">
-              <button class="btn btn__customer">
+              <button class="btn btn__customer" onclick="location.href='http://192.168.75.186:5500/join_cust/join_cust.html'";>
                 <label for="">고객회원</label>
               </button>
-              <button class="btn btn__owner">
+              <button class="btn btn__owner" onclick="location.href='http://192.168.75.186:5500/join_own/join_own.html'">
                 <label for="">점주회원</label>
               </button>
             </div>
@@ -142,7 +142,7 @@
               </table>
             </div>
             <div class="wrap-join-btn content">
-              <button class="btn join-btn">가입하기</button>
+              <button class="btn join-btn" onclick="location.href='#'">가입하기</button>
             </div>
         </main>
         <footer class="footer container">
