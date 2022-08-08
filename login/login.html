@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/437b5ad3c4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="common/common.css" />
-    <link rel="stylesheet" href="join_complete.css" />
-    <title>JOIN COMPLETE STANDARD</title>
+    <link rel="stylesheet" href="login.css" />
+    <title>LOGIN STANDARD</title>
 </head>
 <body>
     <div class="wrapper">
@@ -15,7 +15,7 @@
           <div class="uppermost container">
             <div class="top-menu content">
               <a href="http://192.168.75.186:5500/join_cust/join_cust.html" class="top-menu__join">회원가입</a>
-              <a href="http://192.168.75.186:5500/login/login.html" class="top-menu__login">로그인</a>
+              <a href="#" class="top-menu__login">로그인</a>
               <a href="#" class="top-menu__cs">고객센터</a>
             </div>
           </div>
@@ -63,28 +63,24 @@
         </header>
         <main class="main container">
             <div class="title content">
-                <h2>회원가입 완료</h2>
+                <h2>로그인</h2>
             </div>
-            <div class="welcome content">
-                <h3>환영합니다!</h3>
-            </div>
-            <div class="msg--1">
-                <p><label for=""><span>어피치</span>님 GREAT 고객 회원가입을 축하드립니다.</label></p>
-                <p><label for="">GREAT에 가입하신 아이디는 <span>abc1234</span>입니다.</label></p>
-            </div>
-            <div class="msg--2">
-                <p><label for="">GREAT에서는 항상 회원님들 입장에서</label></p>
-                <p><label for="">보다 좋은 서비스를 받으실 수 있도록 노력하겠습니다.</label></p>
-            </div>
-            <div class="wrap-login-btn content">
-                <button class="btn login-btn" onclick="location.href='http://192.168.75.186:5500/login/login.html'">로그인</button>
+            <div class="input-data">
+                <div class="id">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="아이디를 입력하세요.">
+                </div>
+                <div class="pw">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="text" placeholder="비밀번호를 입력하세요.">
+                </div>
             </div>
         </main>
         <footer class="footer container">
-            <div class="footer-desc">
-              Copyright by Junhyeok Heo of GREAT-team. All Rights Reserved.
-            </div>
+          <div class="footer-desc">
+            Copyright by Junhyeok Heo of GREAT-team. All Rights Reserved.
+          </div>
         </footer>
-    </div>
+      </div>
 </body>
 </html>
