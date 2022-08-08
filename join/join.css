@@ -2,12 +2,32 @@
 
 /* * {outline: 1px solid skyblue;} */
 
-/*비율*/
-.main {display: flex; flex-direction: column; align-items: center; text-align: center;}
+/*[통합]*/
+/*메인 구조*/
+.main {display: flex; flex-direction: column; align-items: center; text-align: center;
+       width: 700px;}
+/*테이블 구조*/
+table {display: flex; flex-direction: column; align-items: center; border-spacing: 10px 10px;}
+/*전체 버튼*/
+button {border: none; border-radius: 5px; background-color: var(--main-color-gre); cursor: pointer;}
+/*테이블 내의 버튼*/
+td > button {height: 25px;}
 
-.join-info__wrap {display: flex; justify-content: center;}
-.join-info {display: flex; flex-direction: column; justify-content: center; width: 400px;}
-.id {display: inline-flex; width: 400px; padding: 10px 20px; box-sizing: border-box; justify-content: space-between;}
-.pw {display: flex; justify-content: space-between;}
+/*타이틀*/
+h2 {letter-spacing: 3px;}
 
-terms-of-use__wrap {display: flex; flex-direction: column; justify-content: space-between;}
+
+/*회원유형 버튼*/
+.member-type {display: flex; justify-content: center; width: 100%;}
+.btn__customer {padding: 10px 70px; margin: 10px; background-color: var(--main-color-yel);}
+.btn__owner {padding: 10px 70px; margin: 10px;}
+
+/*정보*/
+.wrap-join {width: 700px; border-top: 2px solid var(--main-color-gre); border-bottom: 2px solid var(--main-color-gre);}
+
+/*약관*/
+.wrap-terms {padding: 10px;}
+.view-terms {color: var(--main-color-yel); font-weight: bold; text-decoration: underline;}
+
+/*가입하기*/
+.join-btn {padding: 10px 70px; margin: 10px; background-color: var(--main-color-yel);}
