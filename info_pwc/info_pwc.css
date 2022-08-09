@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*[통합]*/
+/*메인 구조*/
+.main {display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+       width: 700px; padding: 20px 0px; height: calc(100vh - 300px);}
+
+/*[비밀번호]*/
+.pwc {display: flex; justify-content: space-evenly; align-items: center; margin: 30px 0px; outline: 1px solid #979797; width: 300px; height: 40px; border-radius: 8px;}
+.pwc i {display: flex; justify-content: center;}
+.pwc .bar {display: flex; width: 1px; height: 30px; background-color: #979797;}
+.pwc input {display: flex; border: none; height: 30px; font-size: 18px;}
+.pwc input::placeholder {display: flex; font-size: 13px; text-align: center;}
+
+.wrap-confirm-btn {padding-bottom: 50px;}
+.confirm-btn {width: 300px; height: 40px; border: none; border-radius: 5px; font-size: 15px; font-weight: bold; letter-spacing: 3px; background-color: var(--main-color-yel); color: #fff;}
