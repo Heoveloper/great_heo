@@ -4,16 +4,24 @@
 /*메인 구조*/
 .main {display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
        width: 700px; height: calc(100vh - 300px); padding: 20px 0px;}
-/*테이블 구조*/
-table {display: flex; flex-direction: column; align-items: center; border-spacing: 10px 10px;}
 
 /*[타이틀]*/
 h1 {letter-spacing: 3px; margin: 10px 0px; padding: 0px;}
 
-/*[로그인]*/
-.input-data input {width: 250px; height: 30px; margin: 10px;}
-.input-data input::placeholder {text-align: center;}
-.input-data i {width: 10px; height: 10px; margin: 10px;}
+/*[로그인 2안 - 원래 하려던 거]*/
+.id, .pw {display: flex; align-items: center; justify-content: center; width: 300px; outline: 1px solid #979797; border-radius: 8px; margin-top: 10px;}
+.input-data {display: flex; flex-direction: column; align-items: center;}
+.input-data input {flex: 4; width: 250px; height: 25px; margin: 10px; border: none;}
+/* .input-data input::placeholder {text-align: center;} */
+.input-data i {flex: 1; width: 20px; height: 20px; font-size: 20px; margin: 10px; color: #979797}
+
+/*[로그인 1안 - 지연씨 제안]*/
+/* .id{display: flex; justify-content: center; align-items: center; padding-bottom: 15px;}
+.pw{display: flex; align-items: center; padding-top: 15px;}
+.input-data {display: flex; flex-direction: column; align-items: center; outline: 1px solid #979797; width: 330px; padding: 20px 0px; border-radius: 8px;}
+.input-data input {width: 250px; height: 25px; border: none; background-color: white;}
+.bar {width: 300px; height: 1px; background-color: #979797;} */
+
 
 
 /*[찾기&회원가입 서비스]*/
