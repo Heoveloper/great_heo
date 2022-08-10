@@ -8,7 +8,7 @@
 /*[타이틀]*/
 h1 {letter-spacing: 3px; margin: 10px 0px; padding: 0px;}
 
-/*[로그인 1안 - 오븐]*/
+/*[로그인]*/
 .input-data {display: flex; flex-direction: column; align-items: center;}
 .id, .pw {display: flex; align-items: center; justify-content: center; width: 300px; outline: 1px solid #979797; border-radius: 8px; margin-top: 10px;}
 .input-data .icon__id {width: 20px; height: 20px; font-size: 20px; margin: 0px 20px; color: #979797;}
