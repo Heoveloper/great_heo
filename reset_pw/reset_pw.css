@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*[통합]*/
+/*메인 구조*/
+.main {display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+       width: 700px; padding: 20px 0px; height: calc(100vh - 300px);}
+
+/*[아이디]*/
+.id {display: flex; justify-content: space-evenly; align-items: center; margin: 5px 0px; outline: 1px solid #979797;
+      width: 300px; height: 45px; border-radius: 8px;}
+.id i {display: flex; justify-content: center;}
+.id .bar {display: flex; width: 1px; height: 30px; background-color: #979797;}
+.id input {display: flex; vertical-align: 2px; border: none; width: 200px; height: 20px; margin: 0; font-size: 13px;}
+.id input:focus {outline: none;}
+.id input::placeholder {font-size: 13px;}
+
+/*[비밀번호]*/
+.pw {display: flex; justify-content: space-evenly; align-items: center; margin: 5px 0px; outline: 1px solid #979797;
+      width: 300px; height: 45px; border-radius: 8px;}
+.pw i {display: flex; justify-content: center;}
+.pw .bar {display: flex; width: 1px; height: 30px; background-color: #979797;}
+.pw input {display: flex; vertical-align: 2px; border: none; width: 200px; height: 20px; margin: 0; font-size: 18px;}
+.pw input:focus {outline: none;}
+.pw input::placeholder {font-size: 13px;}
+
+/*[비밀번호 확인]*/
+.pwc {display: flex; justify-content: space-evenly; align-items: center; margin: 5px 0px; outline: 1px solid #979797;
+      width: 300px; height: 45px; border-radius: 8px;}
+.pwc i {display: flex; justify-content: center;}
+.pwc .bar {display: flex; width: 1px; height: 30px; background-color: #979797;}
+.pwc input {display: flex; vertical-align: 2px; border: none; width: 200px; height: 20px; margin: 0; font-size: 18px;}
+.pwc input:focus {outline: none;}
+.pwc input::placeholder {font-size: 13px;}
+
+/*[재설정 완료 버튼]*/
+.confirm-btn {width: 300px; height: 40px; border: none; border-radius: 5px; letter-spacing: 2px; margin-top: 10px;
+              font-size: 15px; font-weight: bold; background-color: var(--main-color-yel); color: #fff;}

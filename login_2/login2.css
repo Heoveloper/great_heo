@@ -16,7 +16,6 @@ h1 {letter-spacing: 3px; margin: 10px 0px; padding: 0px;}
 .bar__id, .bar__pw {display: flex; width: 1px; height: 30px; background-color: #979797;}
 .input-data input {width: 250px; height: 25px; margin: 10px; border: none; font-size: 14px;}
 .input-data input:focus {outline: none;}
-.input-data input::placeholder {text-align: center;}
 
 
 /*[찾기&회원가입 서비스]*/
