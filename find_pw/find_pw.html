@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/437b5ad3c4.js" crossorigin="anonymous" ></script>
     <link rel="stylesheet" href="common/common.css" />
-    <link rel="stylesheet" href="find_id.css" />
-    <title>FIND ID STANDARD</title>
+    <link rel="stylesheet" href="find_pw.css" />
+    <title>FIND PW STANDARD</title>
   </head>
   <body>
     <div class="wrapper">
@@ -65,26 +65,54 @@
       </header>
       <main class="main container">
         <div class="title content">
-          <h1>아이디를 잊으셨습니까?</h1>
+          <h1>비밀번호를 잊으셨습니까?</h1>
         </div>
-        <div class="wrap-find-id content">
-          <div class="find-id-title">
-            <h2>아이디 찾기</h2>
+        <div class="wrap-find-pw content">
+          <div class="find-pw-title">
+            <h2>비밀번호 찾기</h2>
           </div>
-          <div class="input-data content">
-            <div class="name">
-              <i class="icon__name fa-regular fa-address-card"></i>
-              <i class="bar__name"></i>
-              <input type="text" placeholder="이름을 입력하세요." />
+          <!-- <div class="input-data content">
+            <div class="id">
+              <i class="icon__id fa-regular fa-user"></i>
+              <i class="bar__id"></i>
+              <input type="text" placeholder="아이디를 입력하세요." />
             </div>
             <div class="email">
               <i class="icon__email fa-regular fa-envelope"></i>
               <i class="bar__email"></i>
               <input type="text" placeholder="이메일 주소를 입력하세요." />
             </div>
+            <div class="certify">
+              <i class="icon__certify fa-solid fa-check"></i>
+              <i class="bar__certify"></i>
+              <input type="text" placeholder="인증번호를 입력하세요." />
+            </div>
+          </div> -->
+          <div class="input-data content">
+            <div class="id">
+              <i class="icon__id fa-regular fa-user"></i>
+              <i class="bar__id"></i>
+              <input type="text" placeholder="아이디를 입력하세요." />
+            </div>
+            <div class="wrap-email">
+                <div class="email">
+                  <i class="icon__email fa-regular fa-envelope"></i>
+                  <i class="bar__email"></i>
+                  <input type="text" placeholder="이메일 주소를 입력하세요." />
+                </div>
+                <button class="btn send-btn">인증번호 발송</button>
+            </div>
+            <div class="wrap-certify">
+                <div class="certify">
+                  <i class="icon__certify fa-solid fa-check"></i>
+                  <i class="bar__certify"></i>
+                  <input type="text" placeholder="인증번호를 입력하세요." />
+                </div>
+                <button class="btn certify-btn">인증번호 확인</button>
+            </div>
           </div>
           <div class="wrap-confirm-btn content">
-            <button class="btn confirm-btn" onclick="location.href='#'">확인</button>
+            <button class="btn confirm-btn" onclick="location.href='#'">재설정</button>
           </div>
         </div>
       </main>
