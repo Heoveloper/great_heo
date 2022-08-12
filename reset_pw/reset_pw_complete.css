@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*구조*/
+.wrapper {display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+          width: 480px; height: 480px;}
+/* 커서-포인터 */
+button {cursor: pointer;}
+button label {cursor: pointer;}
+
+/*로그인 버튼*/
+.login-btn {width: 200px; height: 40px; font-size: 15px; font-weight: bold; border: none; border-radius: 8px;
+            background-color: var(--main-color-yel); color: #fff;}

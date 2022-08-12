@@ -10,7 +10,7 @@
 h1 {margin: 50px 0px; padding: 0;}
 
 /*[비밀번호 찾기 항목 입력]*/
-.input-data {display: flex; flex-direction: column; width: 400px;}
+.input-data {display: flex; flex-direction: column; width: 400px; margin-left: 80px;}
 .wrap-id {display: flex; justify-content: left; align-items: center;}
 .id {display: flex; align-items: center; justify-content: center; width: 300px; outline: 1px solid #979797; border-radius: 8px; margin-top: 10px;}
 .wrap-email {display: flex; justify-content: left; align-items: center;}
