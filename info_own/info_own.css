@@ -32,4 +32,5 @@ h2 {letter-spacing: 3px; margin: 10px 0px; padding: 0px;}
 
 /*[탈퇴]*/
 .withdraw {display: flex; justify-content: right;}
+.withdraw {font-size: 0.9em;}
 .withdraw i {margin-right: 5px;}
