@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/437b5ad3c4.js" crossorigin="anonymous"></script>
-    <script language="javascript"></script>
     <script src="reset_pw.js"></script>
     <link rel="stylesheet" href="common/common.css" />
     <link rel="stylesheet" href="reset_pw.css" />
-    <title>RESET PW STANDARD</title>
+    <title>RESET PW</title>
 </head>
 <body>
     <div class="wrapper">
@@ -67,7 +66,7 @@
             <div class="id">
                 <i class="fa-solid fa-user"></i>
                 <i class="bar"></i>
-                <input type="text" placeholder="아이디를 입력하세요." />
+                <input type="text" readonly placeholder="wnsgur5508"/>
             </div>
             <div class="pw">
                 <i class="fa-solid fa-key"></i>
@@ -80,7 +79,7 @@
                 <input type="password" placeholder="비밀번호를 재입력하세요." />
             </div>
             <div class="wrap-confirm-btn content">
-                <button class="btn confirm-btn" onclick="location.href='javascript: reset_pw_complete()'">재설정 완료</button>
+                <button class="btn confirm-btn" onclick="location.href='javascript:show();'">재설정 완료</button>
             </div>
         </main>
         <footer class="footer container">
@@ -88,6 +87,29 @@
               Copyright by Junhyeok Heo of GREAT-team. All Rights Reserved.
             </div>
         </footer>
+
+        <!-- 모달 팝업 -->
+        <div class="background">
+            <div class="wrap-pop-up">
+                <div class="pop-up">
+                    <div class="wrap-close">
+                        <a href="javascript:close();"><i class="fa-solid fa-xmark fa-lg"></i></a>
+                        <!-- <a href="javascript:delay();"><i class="fa-solid fa-xmark fa-lg"></i></a> -->
+                    </div>
+                    <div class="title">
+                        <h2>비밀번호가 변경되었습니다!</h2>
+                    </div>
+                    <div class="location-choice">
+                        <a href="/main/main.html">
+                            메인화면
+                        </a>
+                        <a href="/login/login.html">
+                            로그인
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

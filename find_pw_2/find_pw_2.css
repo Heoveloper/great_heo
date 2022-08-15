@@ -5,21 +5,18 @@
 .main {display: flex; flex-direction: column; align-items: center; text-align: center;
        width: 700px; height: calc(100vh - 300px); padding: 20px 0px;}
 .wrap-find-pw {display: flex; flex-direction: column; align-items: center; padding-top: 50px;}
-/* 커서-포인터 */
-button {cursor: pointer;}
-button label {cursor: pointer;}
 
 /*[타이틀]*/
 h1 {margin: 50px 0px; padding: 0;}
 
 /*[비밀번호 찾기 항목 입력]*/
-.input-data {display: flex; flex-direction: column; width: 400px; margin-left: 80px;}
+.input-data {display: flex; flex-direction: column; width: 440px;}
 .wrap-id {display: flex; justify-content: left; align-items: center;}
 .id {display: flex; align-items: center; justify-content: center; width: 300px; outline: 1px solid #979797; border-radius: 8px; margin-top: 10px;}
 .wrap-email {display: flex; justify-content: left; align-items: center;}
-.email {display: flex; align-items: center; justify-content: center; width: 300px; outline: 1px solid #979797; border-radius: 8px; margin: 10px 10px 0px 0px;}
+.email {display: flex; align-items: center; justify-content: center; width: 300px; outline: 1px solid #979797; border-radius: 8px; margin: 10px 20px 0px 0px;}
 .wrap-certify {display: flex; justify-content: left; align-items: center;}
-.certify {display: flex; align-items: center; justify-content: center; width: 300px; outline: 1px solid #979797; border-radius: 8px; margin: 10px 10px 0px 0px;}
+.certify {display: flex; align-items: center; justify-content: center; width: 300px; outline: 1px solid #979797; border-radius: 8px; margin: 10px 20px 0px 0px;}
 .input-data .icon__id {width: 20px; height: 20px; font-size: 20px; margin: 0px 20px; color: black}
 .input-data .icon__email {width: 20px; height: 20px; font-size: 20px; margin: 0px 19px; color: black;}
 .input-data .icon__certify {width: 20px; height: 20px; font-size: 20px; margin: 0px 20px; color: black;}
@@ -32,6 +29,6 @@ h1 {margin: 50px 0px; padding: 0;}
               margin-top: 30px; background-color: var(--main-color-yel); color: #fff;
               border: none; border-radius: 5px; letter-spacing: 3px;}
 
-.send-btn, .certify-btn {width: 100px; height: 30px; font-size: 12px; font-weight: bold;
+.send-btn, .certify-btn {width: 120px; height: 40px; font-size: 15px; font-weight: bold;
                          border: none; border-radius: 5px; margin-top: 10px; background-color: var(--main-color-gre);
                          color: gray;}

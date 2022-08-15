@@ -1,13 +1,7 @@
-function show() {
-    document.querySelector(".background").className = "background show";
-}
-function close() {
-    document.querySelector(".background").className = "background";
-}
+function reset_pw_2_complete() {
+    const url = "reset_pw_complete.html";
+    const name = "비밀번호 재설정 완료";
+    const option = "width = 500, height = 300, top = 300, left = 700, location = no";
 
-// setTimeout(function delay() {
-//     location.replace('/main/main.html');
-// }, 2000);
-
-document.querySelector(".confirm-btn").addEventListener('click', show);
-document.querySelector(".confirm-btn").addEventListener('click', close);
+    window.open(url, name, option);
+}
